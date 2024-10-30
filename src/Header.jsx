@@ -9,7 +9,7 @@ export default function Header() {
       </div>
 
       <div className='links'>
-        <Link to='/record' target='_blank' className='go-record'>
+        <Link to='/record' className='go-record'>
           Günlük Satışları Gör
         </Link>
         <Link to='/custom' target='_blank' className='go-record'>

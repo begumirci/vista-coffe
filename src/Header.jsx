@@ -12,11 +12,7 @@ export default function Header() {
         <Link to='/record' className='go-record'>
           Günlük Satışları Gör
         </Link>
-        <Link
-          to='/https://coffe-vista.netlify.app/custom'
-          target='_blank'
-          className='go-record'
-        >
+        <Link to='/custom' target='_blank' className='go-record'>
           Müşteri Tarafı
         </Link>
       </div>

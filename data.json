@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "name": "Cappuccino",
+    "price": 120,
+    "category": "warm",
+    "image": "https://picsum.photos/200/300"
+  },
+  {
+    "id": 2,
+    "name": "Espresso",
+    "price": 90,
+    "category": "warm",
+    "image": "https://picsum.photos/200/300"
+  },
+  {
+    "id": 3,
+    "name": "Iced Americano",
+    "price": 110,
+    "category": "cold",
+    "image": "https://picsum.photos/200/300"
+  },
+  {
+    "id": 4,
+    "name": "Vanilla Latte",
+    "price": 130,
+    "category": "warm",
+    "image": "https://picsum.photos/200/300"
+  },
+  {
+    "id": 5,
+    "name": "Chocolate Cake",
+    "price": 150,
+    "category": "dessert",
+    "image": "https://picsum.photos/200/300"
+  },
+  {
+    "id": 6,
+    "name": "Cheesecake",
+    "price": 170,
+    "category": "dessert",
+    "image": "https://picsum.photos/200/300"
+  },
+  {
+    "id": 7,
+    "name": "Red Velvet Cake",
+    "price": 160,
+    "category": "dessert",
+    "image": "https://picsum.photos/200/300"
+  },
+  {
+    "id": 8,
+    "name": "Iced Latte",
+    "price": 120,
+    "category": "cold",
+    "image": "https://picsum.photos/200/300"
+  },
+  {
+    "id": 9,
+    "name": "Matcha Latte",
+    "price": 140,
+    "category": "specialty",
+    "image": "https://picsum.photos/200/300"
+  },
+  {
+    "id": 10,
+    "name": "Green Tea",
+    "price": 90,
+    "category": "tea",
+    "image": "https://picsum.photos/200/300"
+  },
+  {
+    "id": 11,
+    "name": "Chai Latte",
+    "price": 110,
+    "category": "specialty",
+    "image": "https://picsum.photos/200/300"
+  },
+  {
+    "id": 12,
+    "name": "Iced Matcha",
+    "price": 130,
+    "category": "cold",
+    "image": "https://picsum.photos/200/300"
+  },
+  {
+    "id": 13,
+    "name": "Blueberry Muffin",
+    "price": 80,
+    "category": "dessert",
+    "image": "https://picsum.photos/200/300"
+  },
+  {
+    "id": 14,
+    "name": "Lemon Cake",
+    "price": 140,
+    "category": "dessert",
+    "image": "https://picsum.photos/200/300"
+  },
+  {
+    "id": 15,
+    "name": "Hot Chocolate",
+    "price": 100,
+    "category": "warm",
+    "image": "https://picsum.photos/200/300"
+  },
+  {
+    "id": 16,
+    "name": "Macchiato",
+    "price": 130,
+    "category": "warm",
+    "image": "https://picsum.photos/200/300"
+  },
+  {
+    "id": 17,
+    "name": "Almond Croissant",
+    "price": 110,
+    "category": "bakery",
+    "image": "https://picsum.photos/200/300"
+  },
+  {
+    "id": 18,
+    "name": "Banana Bread",
+    "price": 90,
+    "category": "bakery",
+    "image": "https://picsum.photos/200/300"
+  },
+  {
+    "id": 19,
+    "name": "Iced Chai Latte",
+    "price": 120,
+    "category": "cold",
+    "image": "https://picsum.photos/200/300"
+  },
+  {
+    "id": 20,
+    "name": "Oatmeal Cookie",
+    "price": 70,
+    "category": "dessert",
+    "image": "https://picsum.photos/200/300"
+  },
+  {
+    "id": 21,
+    "name": "Mango Smoothie",
+    "price": 150,
+    "category": "smoothie",
+    "image": "https://picsum.photos/200/300"
+  },
+  {
+    "id": 22,
+    "name": "Berry Smoothie",
+    "price": 160,
+    "category": "smoothie",
+    "image": "https://picsum.photos/200/300"
+  },
+  {
+    "id": 23,
+    "name": "Flat White",
+    "price": 100,
+    "category": "warm",
+    "image": "https://picsum.photos/200/300"
+  },
+  {
+    "id": 24,
+    "name": "Mocha",
+    "price": 140,
+    "category": "warm",
+    "image": "https://picsum.photos/200/300"
+  },
+  {
+    "id": 25,
+    "name": "Avocado Toast",
+    "price": 170,
+    "category": "food",
+    "image": "https://picsum.photos/200/300"
+  },
+  {
+    "id": 26,
+    "name": "Bagel & Cream Cheese",
+    "price": 110,
+    "category": "food",
+    "image": "https://picsum.photos/200/300"
+  },
+  {
+    "id": 27,
+    "name": "Iced Green Tea",
+    "price": 90,
+    "category": "cold",
+    "image": "https://picsum.photos/200/300"
+  },
+  {
+    "id": 28,
+    "name": "Raspberry Tart",
+    "price": 130,
+    "category": "dessert",
+    "image": "https://picsum.photos/200/300"
+  },
+  {
+    "id": 29,
+    "name": "Peach Iced Tea",
+    "price": 90,
+    "category": "cold",
+    "image": "https://picsum.photos/200/300"
+  },
+  {
+    "id": 30,
+    "name": "Pumpkin Spice Latte",
+    "price": 150,
+    "category": "specialty",
+    "image": "https://picsum.photos/200/300"
+  }
+]

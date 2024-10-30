@@ -8,6 +8,8 @@ import { routes } from './routes.jsx';
 
 createRoot(document.getElementById('root')).render(
   <ContextProvider>
-    <RouterProvider router={routes} />
+    <RouterProvider router={routes}>
+      <App />
+    </RouterProvider>
   </ContextProvider>
 );

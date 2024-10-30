@@ -18,22 +18,28 @@ export default function CustomSide() {
 
   return (
     <div className='custom-side'>
-      {basket.map((item) => (
-        <div key={item.id} className='custom-item '>
-          <div className='basket-div'>
-            <h3 className='basket-item-quantity'>{item.quantity}x</h3>
-            <h3 className='basket-item-name'>{item.name}</h3>
-          </div>
-          <div className='basket-div gap'>
-            <h3 className='basket-item-price'>₺{item.price * item.quantity}</h3>
+      {basket.length > 0 && (
+        <div>
+          {basket.map((item) => (
+            <div key={item.id} className='custom-item '>
+              <div className='basket-div'>
+                <h3 className='basket-item-quantity'>{item.quantity}x</h3>
+                <h3 className='basket-item-name'>{item.name}</h3>
+              </div>
+              <div className='basket-div gap'>
+                <h3 className='basket-item-price'>
+                  ₺{item.price * item.quantity}
+                </h3>
+              </div>
+            </div>
+          ))}
+          <div className='custom-footer'>
+            <h3>
+              <span>Toplam Fiyat:</span> {formattedTotalPrice}
+            </h3>
           </div>
         </div>
-      ))}
-      <div className='custom-footer'>
-        <h3>
-          <span>Toplam Fiyat:</span> {formattedTotalPrice}
-        </h3>
-      </div>
+      )}
     </div>
   );
 }

@@ -9,12 +9,12 @@ export default function Header() {
       </div>
 
       <div className='links'>
-        <Link to='/record' className='go-record'>
+        <a href='/record' className='go-record'>
           Günlük Satışları Gör
-        </Link>
-        <Link to='/custom' target='_blank' className='go-record'>
+        </a>
+        <a href='/custom' target='_blank' className='go-record'>
           Müşteri Tarafı
-        </Link>
+        </a>
       </div>
     </div>
   );

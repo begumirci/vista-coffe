@@ -1,36 +1,18 @@
-{
-  "categories": [
-    {
-      "id": 1,
-      "name": "warm"
-    },
-    {
-      "id": 2,
-      "name": "cold"
-    },
-    {
-      "id": 3,
-      "name": "dessert"
-    },
-    {
-      "id": 4,
-      "name": "specialty"
-    },
-    {
-      "id": 5,
-      "name": "tea"
-    },
-    {
-      "id": 6,
-      "name": "bakery"
-    },
-    {
-      "id": 7,
-      "name": "smoothie"
-    },
-    {
-      "id": 8,
-      "name": "food"
-    }
-  ]
-}
+[
+  {
+    "id": 1,
+    "name": "Sıcak İçecekler"
+  },
+  {
+    "id": 2,
+    "name": "Soğuk İçecekler"
+  },
+  {
+    "id": 3,
+    "name": "Vista Special Mocktails"
+  },
+  {
+    "id": 4,
+    "name": "Tatlılar"
+  }
+]

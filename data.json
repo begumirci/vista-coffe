@@ -1,212 +1,301 @@
 [
   {
     "id": 1,
-    "name": "Cappuccino",
-    "price": 120,
-    "category": "warm",
-    "image": "https://picsum.photos/200/300"
+    "name": "Americano",
+    "size": "M",
+    "price": 85,
+    "category": "Sıcak İçecekler"
   },
   {
     "id": 2,
-    "name": "Espresso",
-    "price": 90,
-    "category": "warm",
-    "image": "https://picsum.photos/200/300"
+    "name": "Americano",
+    "size": "S",
+    "price": 75,
+    "category": "Sıcak İçecekler"
   },
   {
     "id": 3,
-    "name": "Iced Americano",
-    "price": 110,
-    "category": "cold",
-    "image": "https://picsum.photos/200/300"
+    "name": "Cappuccino",
+    "size": "M",
+    "price": 90,
+    "category": "Sıcak İçecekler"
   },
   {
     "id": 4,
-    "name": "Vanilla Latte",
-    "price": 130,
-    "category": "warm",
-    "image": "https://picsum.photos/200/300"
+    "name": "Cappuccino",
+    "size": "S",
+    "price": 80,
+    "category": "Sıcak İçecekler"
   },
   {
     "id": 5,
-    "name": "Chocolate Cake",
-    "price": 150,
-    "category": "dessert",
-    "image": "https://picsum.photos/200/300"
+    "name": "Caramel Latte",
+    "size": "M",
+    "price": 95,
+    "category": "Sıcak İçecekler"
   },
   {
     "id": 6,
-    "name": "Cheesecake",
-    "price": 170,
-    "category": "dessert",
-    "image": "https://picsum.photos/200/300"
+    "name": "Caramel Latte",
+    "size": "S",
+    "price": 85,
+    "category": "Sıcak İçecekler"
   },
-  {
-    "id": 7,
-    "name": "Red Velvet Cake",
-    "price": 160,
-    "category": "dessert",
-    "image": "https://picsum.photos/200/300"
-  },
+  { "id": 7, "name": "Çay", "price": 25, "category": "Sıcak İçecekler" },
   {
     "id": 8,
-    "name": "Iced Latte",
-    "price": 120,
-    "category": "cold",
-    "image": "https://picsum.photos/200/300"
+    "name": "Chai Tea Latte",
+    "size": "M",
+    "price": 95,
+    "category": "Sıcak İçecekler"
   },
   {
     "id": 9,
-    "name": "Matcha Latte",
-    "price": 140,
-    "category": "specialty",
-    "image": "https://picsum.photos/200/300"
+    "name": "Chai Tea Latte",
+    "size": "S",
+    "price": 85,
+    "category": "Sıcak İçecekler"
   },
-  {
-    "id": 10,
-    "name": "Green Tea",
-    "price": 90,
-    "category": "tea",
-    "image": "https://picsum.photos/200/300"
-  },
+  { "id": 10, "name": "Cortado", "price": 90, "category": "Sıcak İçecekler" },
   {
     "id": 11,
-    "name": "Chai Latte",
-    "price": 110,
-    "category": "specialty",
-    "image": "https://picsum.photos/200/300"
+    "name": "Double Çay",
+    "price": 35,
+    "category": "Sıcak İçecekler"
   },
   {
     "id": 12,
-    "name": "Iced Matcha",
-    "price": 130,
-    "category": "cold",
-    "image": "https://picsum.photos/200/300"
+    "name": "Double Espresso",
+    "price": 65,
+    "category": "Sıcak İçecekler"
   },
-  {
-    "id": 13,
-    "name": "Blueberry Muffin",
-    "price": 80,
-    "category": "dessert",
-    "image": "https://picsum.photos/200/300"
-  },
+  { "id": 13, "name": "Double Tk", "price": 65, "category": "Sıcak İçecekler" },
   {
     "id": 14,
-    "name": "Lemon Cake",
-    "price": 140,
-    "category": "dessert",
-    "image": "https://picsum.photos/200/300"
+    "name": "Filter Coffee",
+    "size": "M",
+    "price": 80,
+    "category": "Sıcak İçecekler"
   },
   {
     "id": 15,
-    "name": "Hot Chocolate",
-    "price": 100,
-    "category": "warm",
-    "image": "https://picsum.photos/200/300"
+    "name": "Filter Coffee",
+    "size": "S",
+    "price": 70,
+    "category": "Sıcak İçecekler"
   },
   {
     "id": 16,
-    "name": "Macchiato",
-    "price": 130,
-    "category": "warm",
-    "image": "https://picsum.photos/200/300"
+    "name": "Flat White",
+    "size": "M",
+    "price": 90,
+    "category": "Sıcak İçecekler"
   },
   {
     "id": 17,
-    "name": "Almond Croissant",
-    "price": 110,
-    "category": "bakery",
-    "image": "https://picsum.photos/200/300"
+    "name": "Flat White",
+    "size": "S",
+    "price": 80,
+    "category": "Sıcak İçecekler"
   },
   {
     "id": 18,
-    "name": "Banana Bread",
-    "price": 90,
-    "category": "bakery",
-    "image": "https://picsum.photos/200/300"
+    "name": "Irish Cream Latte",
+    "size": "M",
+    "price": 95,
+    "category": "Sıcak İçecekler"
   },
   {
     "id": 19,
-    "name": "Iced Chai Latte",
-    "price": 120,
-    "category": "cold",
-    "image": "https://picsum.photos/200/300"
+    "name": "Irish Cream Latte",
+    "size": "S",
+    "price": 85,
+    "category": "Sıcak İçecekler"
   },
   {
     "id": 20,
-    "name": "Oatmeal Cookie",
-    "price": 70,
-    "category": "dessert",
-    "image": "https://picsum.photos/200/300"
+    "name": "Latte",
+    "size": "M",
+    "price": 90,
+    "category": "Sıcak İçecekler"
   },
   {
     "id": 21,
-    "name": "Mango Smoothie",
-    "price": 150,
-    "category": "smoothie",
-    "image": "https://picsum.photos/200/300"
+    "name": "Latte",
+    "size": "S",
+    "price": 80,
+    "category": "Sıcak İçecekler"
   },
   {
     "id": 22,
-    "name": "Berry Smoothie",
-    "price": 160,
-    "category": "smoothie",
-    "image": "https://picsum.photos/200/300"
+    "name": "Mocha",
+    "size": "M",
+    "price": 95,
+    "category": "Sıcak İçecekler"
   },
   {
     "id": 23,
-    "name": "Flat White",
-    "price": 100,
-    "category": "warm",
-    "image": "https://picsum.photos/200/300"
+    "name": "Mocha",
+    "size": "S",
+    "price": 85,
+    "category": "Sıcak İçecekler"
   },
   {
     "id": 24,
-    "name": "Mocha",
-    "price": 140,
-    "category": "warm",
-    "image": "https://picsum.photos/200/300"
+    "name": "Pumpkin Latte",
+    "size": "M",
+    "price": 95,
+    "category": "Sıcak İçecekler"
   },
   {
     "id": 25,
-    "name": "Avocado Toast",
-    "price": 170,
-    "category": "food",
-    "image": "https://picsum.photos/200/300"
+    "name": "Pumpkin Latte",
+    "size": "S",
+    "price": 85,
+    "category": "Sıcak İçecekler"
   },
   {
     "id": 26,
-    "name": "Bagel & Cream Cheese",
-    "price": 110,
-    "category": "food",
-    "image": "https://picsum.photos/200/300"
+    "name": "Salep",
+    "size": "M",
+    "price": 90,
+    "category": "Sıcak İçecekler"
   },
   {
     "id": 27,
-    "name": "Iced Green Tea",
-    "price": 90,
-    "category": "cold",
-    "image": "https://picsum.photos/200/300"
+    "name": "Salep",
+    "size": "S",
+    "price": 80,
+    "category": "Sıcak İçecekler"
   },
   {
     "id": 28,
-    "name": "Raspberry Tart",
-    "price": 130,
-    "category": "dessert",
-    "image": "https://picsum.photos/200/300"
+    "name": "Single Espresso",
+    "price": 55,
+    "category": "Sıcak İçecekler"
   },
   {
     "id": 29,
-    "name": "Peach Iced Tea",
-    "price": 90,
-    "category": "cold",
-    "image": "https://picsum.photos/200/300"
+    "name": "Strawberry Latte",
+    "size": "M",
+    "price": 95,
+    "category": "Sıcak İçecekler"
   },
   {
     "id": 30,
-    "name": "Pumpkin Spice Latte",
-    "price": 150,
-    "category": "specialty",
-    "image": "https://picsum.photos/200/300"
-  }
+    "name": "Strawberry Latte",
+    "size": "S",
+    "price": 85,
+    "category": "Sıcak İçecekler"
+  },
+  {
+    "id": 31,
+    "name": "Sıcak Çikolata",
+    "size": "M",
+    "price": 90,
+    "category": "Sıcak İçecekler"
+  },
+  {
+    "id": 32,
+    "name": "Sıcak Çikolata",
+    "size": "S",
+    "price": 80,
+    "category": "Sıcak İçecekler"
+  },
+  {
+    "id": 33,
+    "name": "Toffe Nut Latte",
+    "size": "M",
+    "price": 95,
+    "category": "Sıcak İçecekler"
+  },
+  {
+    "id": 34,
+    "name": "Toffe Nut Latte",
+    "size": "S",
+    "price": 85,
+    "category": "Sıcak İçecekler"
+  },
+  {
+    "id": 35,
+    "name": "Türk Kahvesi",
+    "price": 55,
+    "category": "Sıcak İçecekler"
+  },
+  {
+    "id": 36,
+    "name": "Vista Cookie Latte",
+    "size": "M",
+    "price": 95,
+    "category": "Sıcak İçecekler"
+  },
+  {
+    "id": 37,
+    "name": "Vista Cookie Latte",
+    "size": "S",
+    "price": 85,
+    "category": "Sıcak İçecekler"
+  },
+
+  {
+    "id": 38,
+    "name": "Berry Hibiscus",
+    "price": 115,
+    "category": "Soğuk İçecekler"
+  },
+  { "id": 39, "name": "Churchill", "price": 65, "category": "Soğuk İçecekler" },
+  { "id": 40, "name": "Frappe", "price": 110, "category": "Soğuk İçecekler" },
+  { "id": 41, "name": "Frozen", "price": 110, "category": "Soğuk İçecekler" },
+  {
+    "id": 42,
+    "name": "Iced Americano",
+    "price": 100,
+    "category": "Soğuk İçecekler"
+  },
+  {
+    "id": 43,
+    "name": "Iced Latte",
+    "price": 105,
+    "category": "Soğuk İçecekler"
+  },
+  { "id": 44, "name": "Limonata", "price": 80, "category": "Soğuk İçecekler" },
+  { "id": 45, "name": "Soda", "price": 40, "category": "Soğuk İçecekler" },
+  { "id": 46, "name": "Su", "price": 25, "category": "Soğuk İçecekler" },
+  {
+    "id": 47,
+    "name": "İlave Şurup",
+    "price": 10,
+    "category": "Soğuk İçecekler"
+  },
+
+  {
+    "id": 48,
+    "name": "Astalavista",
+    "price": 130,
+    "category": "Vista Special Mocktails"
+  },
+  {
+    "id": 49,
+    "name": "Bourbon",
+    "price": 125,
+    "category": "Vista Special Mocktails"
+  },
+  {
+    "id": 50,
+    "name": "Bloom",
+    "price": 125,
+    "category": "Vista Special Mocktails"
+  },
+  {
+    "id": 51,
+    "name": "Flavor",
+    "price": 120,
+    "category": "Vista Special Mocktails"
+  },
+
+  { "id": 52, "name": "Antep Fıstıklı San Sebastian", "category": "Tatlılar" },
+
+  { "id": 53, "name": "Brownie", "category": "Tatlılar" },
+  { "id": 54, "name": "Geisha", "category": "Tatlılar" },
+  { "id": 55, "name": "San Sebastian", "category": "Tatlılar" }
 ]

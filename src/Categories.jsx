@@ -8,6 +8,8 @@ export default function Categories() {
 
   const [category, setCategory] = useState('');
 
+  console.log(categories);
+
   function handleCategories(selectedCategory) {
     setCategory(selectedCategory);
     const filteredProducts = products.filter(
@@ -54,7 +56,7 @@ export default function Categories() {
       </div>
 
       <div className='categories-btns'>
-        {categories.categories.map((x) => (
+        {categories.map((x) => (
           <button onClick={() => handleCategories(`${x.name}`)} key={x.id}>
             {x.name}
           </button>

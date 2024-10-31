@@ -37,10 +37,12 @@ export default function Products() {
             onClick={() => addBasket(product)}
             className='card'
           >
-            <img className='card__img' src={product.image} alt='' />
             <div className='overlay'></div>
             <div className='card-int'>
               <p className='card-int__title'>{product.name}</p>
+              <p className='card-int__title' style={{ height: '39px' }}>
+                {product.size ? product.size : ' '}
+              </p>
               <p className='excerpt'>{product.price}₺</p>
             </div>
           </div>

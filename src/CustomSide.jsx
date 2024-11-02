@@ -24,7 +24,9 @@ export default function CustomSide() {
             <div key={item.id} className='custom-item '>
               <div className='basket-div'>
                 <h3 className='basket-item-quantity'>{item.quantity}x</h3>
-                <h3 className='basket-item-name'>{item.name}</h3>
+                <h3 className='basket-item-name'>
+                  {item.name} {item.size && item.size}
+                </h3>
               </div>
               <div className='basket-div gap'>
                 <h3 className='basket-item-price'>

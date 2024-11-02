@@ -293,9 +293,14 @@
     "category": "Vista Special Mocktails"
   },
 
-  { "id": 52, "name": "Antep Fıstıklı San Sebastian", "category": "Tatlılar" },
+  {
+    "id": 52,
+    "name": "Antep Fıstıklı San Sebastian",
+    "category": "Tatlılar",
+    "price": 170
+  },
 
-  { "id": 53, "name": "Brownie", "category": "Tatlılar" },
-  { "id": 54, "name": "Geisha", "category": "Tatlılar" },
-  { "id": 55, "name": "San Sebastian", "category": "Tatlılar" }
+  { "id": 53, "name": "Brownie", "category": "Tatlılar", "price": 140 },
+
+  { "id": 54, "name": "San Sebastian", "category": "Tatlılar", "price": 150 }
 ]

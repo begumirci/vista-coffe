@@ -49,7 +49,7 @@ export default function Order() {
                   <div className='basket-div'>
                     <h3 className='basket-item-quantity'>{item.quantity}x</h3>
                     <h3 className='basket-item-name'>
-                      {item.name} {item.size && item.size}
+                      {item.name} - {item.size && item.size}
                     </h3>
                   </div>
                   <div className='basket-div gap'>

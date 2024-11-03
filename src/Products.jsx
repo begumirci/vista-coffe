@@ -40,7 +40,12 @@ export default function Products() {
             <div className='overlay'></div>
             <div className='card-int'>
               <p className='card-int__title'>{product.name}</p>
-              <p className='card-int__title' style={{ height: '39px' }}>
+              <p
+                className={`card-int__title ${product.size ? 'size' : ''} ${
+                  product.size == 'M' && 'sizeM'
+                }`}
+                style={{ height: '39px' }}
+              >
                 {product.size ? product.size : ' '}
               </p>
               <p className='excerpt'>{product.price}₺</p>

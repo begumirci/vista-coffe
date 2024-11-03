@@ -141,6 +141,7 @@ a {
     outline: none;
     border: 1px solid rgba(0, 0, 0, 0.1);
     width: 400px;
+    font-weight: bold;
   }
 
   svg {
@@ -409,4 +410,22 @@ button:focus {
   img {
     width: 70px;
   }
+}
+
+.size {
+  border-radius: 100px;
+  background-color: var(--bordo);
+  display: inline;
+  padding-inline: 13px;
+  padding-block: 6px;
+  color: white;
+}
+
+.excerpt {
+  margin-top: 12px;
+}
+
+.sizeM {
+  padding-inline: 10px;
+  padding-block: 6px;
 }

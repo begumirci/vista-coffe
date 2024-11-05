@@ -297,10 +297,10 @@
     "id": 52,
     "name": "Antep Fıstıklı San Sebastian",
     "category": "Tatlılar",
-    "price": 165
+    "price": 170
   },
 
-  { "id": 54, "name": "San Sebastian", "category": "Tatlılar", "price": 145 },
+  { "id": 54, "name": "San Sebastian", "category": "Tatlılar", "price": 150 },
   {
     "id": 55,
     "name": "Meyveli Soda",
@@ -312,5 +312,23 @@
     "name": "Iced Mocha",
     "price": 130,
     "category": "Soğuk İçecekler"
+  },
+  {
+    "id": 57,
+    "name": "Vista Cup",
+    "price": 105,
+    "category": "Tatlılar"
+  },
+  {
+    "id": 58,
+    "name": "Geisha",
+    "price": 120,
+    "category": "Tatlılar"
+  },
+  {
+    "id": 59,
+    "name": "Cheesecake",
+    "price": 135,
+    "category": "Tatlılar"
   }
 ]

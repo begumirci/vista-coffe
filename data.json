@@ -3,14 +3,14 @@
     "id": 1,
     "name": "Americano",
     "size": "M",
-    "price": 85,
+    "price": 95,
     "category": "Sıcak İçecekler"
   },
   {
     "id": 2,
     "name": "Americano",
     "size": "S",
-    "price": 75,
+    "price": 85,
     "category": "Sıcak İçecekler"
   },
   {
@@ -31,14 +31,14 @@
     "id": 5,
     "name": "Caramel Latte",
     "size": "M",
-    "price": 95,
+    "price": 115,
     "category": "Sıcak İçecekler"
   },
   {
     "id": 6,
     "name": "Caramel Latte",
     "size": "S",
-    "price": 85,
+    "price": 105,
     "category": "Sıcak İçecekler"
   },
   { "id": 7, "name": "Çay", "price": 25, "category": "Sıcak İçecekler" },
@@ -46,227 +46,227 @@
     "id": 8,
     "name": "Chai Tea Latte",
     "size": "M",
-    "price": 95,
+    "price": 120,
     "category": "Sıcak İçecekler"
   },
   {
     "id": 9,
     "name": "Chai Tea Latte",
     "size": "S",
-    "price": 85,
+    "price": 110,
     "category": "Sıcak İçecekler"
   },
-  { "id": 10, "name": "Cortado", "price": 90, "category": "Sıcak İçecekler" },
+  { "id": 10, "name": "Cortado", "price": 100, "category": "Sıcak İçecekler" },
   {
     "id": 11,
     "name": "Double Çay",
-    "price": 35,
+    "price": 40,
     "category": "Sıcak İçecekler"
   },
   {
     "id": 12,
     "name": "Double Espresso",
-    "price": 65,
+    "price": 80,
     "category": "Sıcak İçecekler"
   },
-  { "id": 13, "name": "Double Tk", "price": 65, "category": "Sıcak İçecekler" },
+  {
+    "id": 13,
+    "name": "Double Türk Kahve",
+    "price": 80,
+    "category": "Sıcak İçecekler"
+  },
   {
     "id": 14,
     "name": "Filter Coffee",
     "size": "M",
-    "price": 80,
+    "price": 90,
     "category": "Sıcak İçecekler"
   },
   {
     "id": 15,
     "name": "Filter Coffee",
     "size": "S",
-    "price": 70,
+    "price": 80,
     "category": "Sıcak İçecekler"
   },
   {
     "id": 16,
     "name": "Flat White",
     "size": "M",
-    "price": 90,
+    "price": 105,
     "category": "Sıcak İçecekler"
   },
   {
     "id": 17,
     "name": "Flat White",
     "size": "S",
-    "price": 80,
+    "price": 95,
     "category": "Sıcak İçecekler"
   },
   {
     "id": 18,
     "name": "Irish Cream Latte",
     "size": "M",
-    "price": 95,
+    "price": 120,
     "category": "Sıcak İçecekler"
   },
   {
     "id": 19,
     "name": "Irish Cream Latte",
     "size": "S",
-    "price": 85,
+    "price": 110,
     "category": "Sıcak İçecekler"
   },
   {
     "id": 20,
     "name": "Latte",
     "size": "M",
-    "price": 90,
+    "price": 105,
     "category": "Sıcak İçecekler"
   },
   {
     "id": 21,
     "name": "Latte",
     "size": "S",
-    "price": 80,
+    "price": 95,
     "category": "Sıcak İçecekler"
   },
   {
     "id": 22,
     "name": "Mocha",
     "size": "M",
-    "price": 95,
+    "price": 115,
     "category": "Sıcak İçecekler"
   },
   {
     "id": 23,
     "name": "Mocha",
     "size": "S",
-    "price": 85,
+    "price": 105,
     "category": "Sıcak İçecekler"
   },
   {
     "id": 24,
     "name": "Pumpkin Latte",
     "size": "M",
-    "price": 95,
+    "price": 120,
     "category": "Sıcak İçecekler"
   },
   {
     "id": 25,
     "name": "Pumpkin Latte",
     "size": "S",
-    "price": 85,
+    "price": 110,
     "category": "Sıcak İçecekler"
   },
   {
     "id": 26,
     "name": "Salep",
     "size": "M",
-    "price": 90,
+    "price": 95,
     "category": "Sıcak İçecekler"
   },
   {
     "id": 27,
     "name": "Salep",
     "size": "S",
-    "price": 80,
+    "price": 85,
     "category": "Sıcak İçecekler"
   },
   {
     "id": 28,
     "name": "Single Espresso",
-    "price": 55,
+    "price": 60,
     "category": "Sıcak İçecekler"
   },
   {
     "id": 29,
     "name": "Strawberry Latte",
     "size": "M",
-    "price": 95,
+    "price": 115,
     "category": "Sıcak İçecekler"
   },
   {
     "id": 30,
     "name": "Strawberry Latte",
     "size": "S",
-    "price": 85,
+    "price": 105,
     "category": "Sıcak İçecekler"
   },
   {
     "id": 31,
     "name": "Sıcak Çikolata",
     "size": "M",
-    "price": 90,
+    "price": 95,
     "category": "Sıcak İçecekler"
   },
   {
     "id": 32,
     "name": "Sıcak Çikolata",
     "size": "S",
-    "price": 80,
+    "price": 85,
     "category": "Sıcak İçecekler"
   },
   {
     "id": 33,
     "name": "Toffe Nut Latte",
     "size": "M",
-    "price": 95,
+    "price": 115,
     "category": "Sıcak İçecekler"
   },
   {
     "id": 34,
     "name": "Toffe Nut Latte",
     "size": "S",
-    "price": 85,
+    "price": 105,
     "category": "Sıcak İçecekler"
   },
   {
     "id": 35,
     "name": "Türk Kahvesi",
-    "price": 55,
+    "price": 60,
     "category": "Sıcak İçecekler"
   },
   {
     "id": 36,
     "name": "Vista Cookie Latte",
     "size": "M",
-    "price": 95,
+    "price": 120,
     "category": "Sıcak İçecekler"
   },
   {
     "id": 37,
     "name": "Vista Cookie Latte",
     "size": "S",
-    "price": 85,
+    "price": 110,
     "category": "Sıcak İçecekler"
   },
 
   {
     "id": 38,
     "name": "Berry Hibiscus",
-    "price": 115,
+    "price": 120,
     "category": "Soğuk İçecekler"
   },
   { "id": 39, "name": "Churchill", "price": 65, "category": "Soğuk İçecekler" },
-  { "id": 40, "name": "Frappe", "price": 110, "category": "Soğuk İçecekler" },
-  { "id": 41, "name": "Frozen", "price": 110, "category": "Soğuk İçecekler" },
+  { "id": 40, "name": "Frappe", "price": 120, "category": "Soğuk İçecekler" },
+  { "id": 41, "name": "Frozen", "price": 120, "category": "Soğuk İçecekler" },
   {
     "id": 42,
     "name": "Iced Americano",
-    "price": 100,
+    "price": 110,
     "category": "Soğuk İçecekler"
   },
   {
     "id": 43,
     "name": "Iced Latte",
-    "price": 105,
+    "price": 120,
     "category": "Soğuk İçecekler"
   },
-  { "id": 44, "name": "Limonata", "price": 80, "category": "Soğuk İçecekler" },
+
+  { "id": 44, "name": "Limonata", "price": 85, "category": "Soğuk İçecekler" },
   { "id": 45, "name": "Soda", "price": 40, "category": "Soğuk İçecekler" },
   { "id": 46, "name": "Su", "price": 25, "category": "Soğuk İçecekler" },
-  {
-    "id": 47,
-    "name": "İlave Şurup",
-    "price": 10,
-    "category": "Soğuk İçecekler"
-  },
 
   {
     "id": 48,
@@ -297,10 +297,20 @@
     "id": 52,
     "name": "Antep Fıstıklı San Sebastian",
     "category": "Tatlılar",
-    "price": 170
+    "price": 165
   },
 
-  { "id": 53, "name": "Brownie", "category": "Tatlılar", "price": 140 },
-
-  { "id": 54, "name": "San Sebastian", "category": "Tatlılar", "price": 150 }
+  { "id": 54, "name": "San Sebastian", "category": "Tatlılar", "price": 145 },
+  {
+    "id": 55,
+    "name": "Meyveli Soda",
+    "price": 50,
+    "category": "Soğuk İçecekler"
+  },
+  {
+    "id": 56,
+    "name": "Iced Mocha",
+    "price": 130,
+    "category": "Soğuk İçecekler"
+  }
 ]

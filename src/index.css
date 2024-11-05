@@ -116,6 +116,7 @@ a {
     cursor: pointer;
     color: white;
     width: 100%;
+    font-weight: bold;
     text-transform: capitalize;
   }
 }

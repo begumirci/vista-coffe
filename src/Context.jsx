@@ -52,6 +52,7 @@ export default function ContextProvider({ children }) {
 
     // Güncellenmiş veriyi `localStorage`'a kaydediyoruz
     localStorage.setItem('dailySales', JSON.stringify(existingData));
+    alert('Sipariş Oluşturuldu');
     setBasket([]); // Sepeti boşalt
   }
 

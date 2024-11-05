@@ -2,6 +2,8 @@ import { createContext } from 'react';
 import { useState, useEffect } from 'react';
 import data from '../data.json';
 
+import Okey from './Okey';
+
 export const contextData = createContext();
 
 export default function ContextProvider({ children }) {
@@ -16,6 +18,9 @@ export default function ContextProvider({ children }) {
   const [isBasketOpen, setIsBasketOpen] = useState(false);
   const [dailySales, setDailySales] = useState(null);
   const [search, setSearch] = useState('');
+  const [isOkey, setIsOkey] = useState(false);
+  const [open, setOpen] = useState(false);
+  const [isDelete, setIsDelete] = useState(false);
 
   function saveOrderToLocalStorage() {
     const today = new Date().toISOString().split('T')[0]; // YYYY-MM-DD formatında tarih
@@ -52,7 +57,10 @@ export default function ContextProvider({ children }) {
 
     // Güncellenmiş veriyi `localStorage`'a kaydediyoruz
     localStorage.setItem('dailySales', JSON.stringify(existingData));
-    alert('Sipariş Oluşturuldu');
+    setIsOkey(true);
+    setTimeout(() => {
+      setIsOkey(false);
+    }, 1000);
     setBasket([]); // Sepeti boşalt
   }
 
@@ -91,6 +99,12 @@ export default function ContextProvider({ children }) {
         setDailySales,
         search,
         setSearch,
+        isOkey,
+        setIsOkey,
+        open,
+        setOpen,
+        isDelete,
+        setIsDelete,
       }}
     >
       {children}

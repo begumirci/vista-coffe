@@ -17,14 +17,14 @@
     "id": 3,
     "name": "Cappuccino",
     "size": "M",
-    "price": 90,
+    "price": 105,
     "category": "Sıcak İçecekler"
   },
   {
     "id": 4,
     "name": "Cappuccino",
     "size": "S",
-    "price": 80,
+    "price": 95,
     "category": "Sıcak İçecekler"
   },
   {
@@ -271,25 +271,25 @@
   {
     "id": 48,
     "name": "Astalavista",
-    "price": 130,
+    "price": 135,
     "category": "Vista Special Mocktails"
   },
   {
     "id": 49,
     "name": "Bourbon",
-    "price": 125,
+    "price": 130,
     "category": "Vista Special Mocktails"
   },
   {
     "id": 50,
     "name": "Bloom",
-    "price": 125,
+    "price": 130,
     "category": "Vista Special Mocktails"
   },
   {
     "id": 51,
     "name": "Flavor",
-    "price": 120,
+    "price": 125,
     "category": "Vista Special Mocktails"
   },
 
@@ -297,10 +297,10 @@
     "id": 52,
     "name": "Antep Fıstıklı San Sebastian",
     "category": "Tatlılar",
-    "price": 170
+    "price": 165
   },
 
-  { "id": 54, "name": "San Sebastian", "category": "Tatlılar", "price": 150 },
+  { "id": 54, "name": "San Sebastian", "category": "Tatlılar", "price": 145 },
   {
     "id": 55,
     "name": "Meyveli Soda",

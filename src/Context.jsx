@@ -2,8 +2,6 @@ import { createContext } from 'react';
 import { useState, useEffect } from 'react';
 import data from '../data.json';
 
-import Okey from './Okey';
-
 export const contextData = createContext();
 
 export default function ContextProvider({ children }) {

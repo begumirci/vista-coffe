@@ -3,7 +3,7 @@ import { contextData } from './Context';
 import categories from '../categories.json';
 
 export default function Categories() {
-  const { products, setFilterProducts, search, setSearch } =
+  const { products, setFilterProducts, search, setSearch, isOkey } =
     useContext(contextData);
 
   const [category, setCategory] = useState('');

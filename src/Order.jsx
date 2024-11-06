@@ -2,7 +2,7 @@ import { useContext, useState, useEffect } from 'react';
 import { contextData } from './Context';
 
 export default function Order() {
-  const { isBasketOpen, basket, setBasket, saveOrderToLocalStorage } =
+  const { isBasketOpen, basket, setBasket, saveOrderToLocalStorage, isOkey } =
     useContext(contextData);
   const [orderNumber, setOrderNumber] = useState('');
 

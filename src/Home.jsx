@@ -11,13 +11,13 @@ export default function Home() {
   const { isOkey } = useContext(contextData);
   return (
     <div className='home'>
-      {isOkey ? <Okey /> : ''}
       <Header />
       <div className='main-side'>
         <Order />
         <div className='right-side'>
           <Categories />
           <Products />
+          {isOkey ? <Okey /> : ''}
         </div>
       </div>
     </div>

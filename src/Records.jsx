@@ -1,6 +1,7 @@
 import { useContext, useEffect, useState } from 'react';
 import { contextData } from './Context';
 import DeleteAll from './DeleteAll';
+import { Link } from 'react-router-dom';
 
 export default function Records() {
   const {
@@ -97,6 +98,10 @@ export default function Records() {
             >
               Giriş Yap
             </button>
+
+            <Link to='/' className='back'>
+              Geri Git
+            </Link>
           </form>
         </div>
       )}

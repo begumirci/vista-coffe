@@ -19,6 +19,7 @@ export default function ContextProvider({ children }) {
   const [isOkey, setIsOkey] = useState(false);
   const [open, setOpen] = useState(false);
   const [isDelete, setIsDelete] = useState(false);
+  const [password, setPassword] = useState('3288');
 
   function saveOrderToLocalStorage() {
     const today = new Date().toISOString().split('T')[0]; // YYYY-MM-DD formatında tarih
@@ -103,6 +104,7 @@ export default function ContextProvider({ children }) {
         setOpen,
         isDelete,
         setIsDelete,
+        password,
       }}
     >
       {children}

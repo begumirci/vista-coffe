@@ -1,10 +1,20 @@
-import { useContext, useEffect } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import { contextData } from './Context';
 import DeleteAll from './DeleteAll';
 
 export default function Records() {
-  const { dailySales, setDailySales, isDelete, setIsDelete, open, setOpen } =
-    useContext(contextData);
+  const {
+    dailySales,
+    setDailySales,
+    isDelete,
+    setIsDelete,
+    open,
+    setOpen,
+    password,
+  } = useContext(contextData);
+  const [inputValue, setInputValue] = useState('');
+  const [succesful, setSuccesful] = useState(false);
+
   useEffect(() => {
     const salesData = JSON.parse(localStorage.getItem('dailySales')) || {};
     setDailySales(salesData);
@@ -13,44 +23,83 @@ export default function Records() {
   function calculateDailyTotal(sales) {
     return sales.reduce((total, sale) => total + sale.price, 0);
   }
+
+  function handleClickPassword(e) {
+    e.preventDefault();
+    console.log(inputValue);
+    if (inputValue == password) {
+      setSuccesful(true);
+    } else {
+      alert('Şifre Yanlış');
+      setSuccesful(false);
+    }
+  }
   return (
     <div>
-      {open ? <DeleteAll /> : ''}
-      {dailySales && (
-        <div className='daily-sales'>
-          {Object.entries(dailySales).map(([date, sales]) => (
-            <div key={date} className='sales'>
-              <h4>{date}</h4>
-              {sales.map((sale, index) => (
-                <div key={index} className='sales-item'>
-                  <p>{sale.quantity}x</p>
-                  <p>{sale.name}</p>
-                  <p>
+      {succesful ? (
+        <>
+          {open ? <DeleteAll /> : ''}
+          {dailySales && (
+            <div className='daily-sales'>
+              {Object.entries(dailySales).map(([date, sales]) => (
+                <div key={date} className='sales'>
+                  <h4>{date}</h4>
+                  {sales.map((sale, index) => (
+                    <div key={index} className='sales-item'>
+                      <p>{sale.quantity}x</p>
+                      <p>{sale.name}</p>
+                      <p>
+                        {new Intl.NumberFormat('tr-TR', {
+                          style: 'currency',
+                          currency: 'TRY',
+                        }).format(sale.price)}
+                      </p>
+                    </div>
+                  ))}
+                  <h5 className='total-win'>
+                    Günlük Toplam:{' '}
                     {new Intl.NumberFormat('tr-TR', {
                       style: 'currency',
                       currency: 'TRY',
-                    }).format(sale.price)}
-                  </p>
+                    }).format(calculateDailyTotal(sales))}
+                  </h5>
                 </div>
               ))}
-              <h5 className='total-win'>
-                Günlük Toplam:{' '}
-                {new Intl.NumberFormat('tr-TR', {
-                  style: 'currency',
-                  currency: 'TRY',
-                }).format(calculateDailyTotal(sales))}
-              </h5>
             </div>
-          ))}
+          )}
+
+          <button onClick={() => setOpen(true)} className='clear-sales'>
+            Verileri Sil
+          </button>
+          <button className='clear-sales'>
+            <a href='/'>Geri Dön</a>
+          </button>
+        </>
+      ) : (
+        <div className='form-container'>
+          <form className='form'>
+            <div className='form-group'>
+              <label htmlFor='password'>Password</label>
+              <input
+                type='password'
+                id='password'
+                name='password'
+                placeholder='Enter your password'
+                required=''
+                onChange={(e) => setInputValue(e.target.value)}
+              />
+            </div>
+
+            <button
+              className='form-submit-btn'
+              type='submit'
+              onClick={(e) => handleClickPassword(e)}
+            >
+              Giriş Yap
+            </button>
+          </form>
         </div>
       )}
-
-      <button onClick={() => setOpen(true)} className='clear-sales'>
-        Verileri Sil
-      </button>
-      <button className='clear-sales'>
-        <a href='/'>Geri Dön</a>
-      </button>
     </div>
   );
 }

@@ -330,5 +330,11 @@
     "name": "Cheesecake",
     "price": 135,
     "category": "Tatlılar"
+  },
+  {
+    "id": 60,
+    "name": "Laktozsuz Süt",
+    "price": 10,
+    "category": "Sıcak İçecekler"
   }
 ]

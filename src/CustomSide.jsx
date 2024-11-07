@@ -22,7 +22,7 @@ export default function CustomSide() {
         <div>
           {basket.map((item) => (
             <div key={item.id} className='custom-item '>
-              <div className='basket-div'>
+              <div className='basket-div-custom'>
                 <h3 className='basket-item-quantity'>{item.quantity}x</h3>
                 <h3 className='basket-item-name'>
                   {item.name} {item.size && item.size}

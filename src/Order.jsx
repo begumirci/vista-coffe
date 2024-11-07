@@ -33,7 +33,46 @@ export default function Order() {
     style: 'currency',
     currency: 'TRY',
   }).format(totalPrice);
-  console.log(basket);
+
+  function addBasket(product) {
+    setBasket((prevBasket) => {
+      // Sepetteki ürünü bul
+      const existingProduct = prevBasket.find((item) => item.id === product.id);
+
+      if (existingProduct) {
+        // Ürün zaten sepette varsa miktarını artır
+        return prevBasket.map((item) =>
+          item.id === product.id
+            ? { ...item, quantity: item.quantity + 1 }
+            : item
+        );
+      } else {
+        // Ürün sepette yoksa yeni ekle
+        return [...prevBasket, { ...product, quantity: 1 }];
+      }
+    });
+
+    setSearch('');
+  }
+
+  const decreaseBasket = (item) => {
+    if (item.quantity > 1) {
+      // Eğer miktar 1'den büyükse, miktarı azalt
+      setBasket((prevBasket) =>
+        prevBasket.map((basketItem) =>
+          basketItem.id === item.id
+            ? { ...basketItem, quantity: basketItem.quantity - 1 }
+            : basketItem
+        )
+      );
+    } else {
+      // Miktar 0 olursa ürünü sepetten kaldır
+      setBasket((prevBasket) =>
+        prevBasket.filter((basketItem) => basketItem.id !== item.id)
+      );
+    }
+  };
+
   return (
     <>
       {basket.length > 0 && (
@@ -47,12 +86,26 @@ export default function Order() {
               {basket.map((item) => (
                 <div key={item.id} className='basket-item'>
                   <div className='basket-div'>
-                    <h3 className='basket-item-quantity'>{item.quantity}x</h3>
+                    {/* <h3 className='basket-item-quantity'>{item.quantity}x</h3> */}
                     <h3 className='basket-item-name'>
                       {item.name} - {item.size && item.size}
                     </h3>
                   </div>
-                  <div className='basket-div gap'>
+                  <div className='basket-divs gap'>
+                    <div className='control-btns'>
+                      <span
+                        className='azalt'
+                        onClick={() => decreaseBasket(item)}
+                      >
+                        -
+                      </span>
+                      <span className='number basket-item-quantity'>
+                        {item.quantity}
+                      </span>
+                      <span className='arttir' onClick={() => addBasket(item)}>
+                        +
+                      </span>
+                    </div>
                     <h3 className='basket-item-price'>
                       ₺{item.price * item.quantity}
                     </h3>

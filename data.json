@@ -315,8 +315,8 @@
   },
   {
     "id": 57,
-    "name": "Vista Cup",
-    "price": 105,
+    "name": "Supangle",
+    "price": 120,
     "category": "Tatlılar"
   },
   {
@@ -342,5 +342,17 @@
     "name": "Filtre Kahve + Pasta",
     "price": 100,
     "category": "İndirim Menüleri"
+  },
+  {
+    "id": 62,
+    "name": "Pavlova",
+    "price": 135,
+    "category": "Tatlılar"
+  },
+  {
+    "id": 63,
+    "name": "Belem Pie",
+    "price": 135,
+    "category": "Tatlılar"
   }
 ]

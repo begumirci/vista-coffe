@@ -336,5 +336,11 @@
     "name": "Laktozsuz Süt",
     "price": 10,
     "category": "Sıcak İçecekler"
+  },
+  {
+    "id": 61,
+    "name": "Filtre Kahve + Pasta",
+    "price": 100,
+    "category": "İndirim Menüleri"
   }
 ]

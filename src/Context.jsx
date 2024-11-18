@@ -82,6 +82,28 @@ export default function ContextProvider({ children }) {
     };
   }, [basket]);
 
+  function addBasket(product) {
+    setIsBasketOpen(true);
+    setBasket((prevBasket) => {
+      // Sepetteki ürünü bul
+      const existingProduct = prevBasket.find((item) => item.id === product.id);
+
+      if (existingProduct) {
+        // Ürün zaten sepette varsa miktarını artır
+        return prevBasket.map((item) =>
+          item.id === product.id
+            ? { ...item, quantity: item.quantity + 1 }
+            : item
+        );
+      } else {
+        // Ürün sepette yoksa yeni ekle
+        return [...prevBasket, { ...product, quantity: 1 }];
+      }
+    });
+
+    setSearch('');
+  }
+
   return (
     <contextData.Provider
       value={{
@@ -105,6 +127,7 @@ export default function ContextProvider({ children }) {
         isDelete,
         setIsDelete,
         password,
+        addBasket,
       }}
     >
       {children}

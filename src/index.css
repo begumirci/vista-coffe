@@ -586,3 +586,31 @@ button:focus {
   align-items: center;
   gap: 10px;
 }
+
+.extra-side {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  button {
+    padding: 10px;
+    border-radius: 8px;
+  }
+
+  input {
+    padding-inline: 10px;
+    padding-block: 7px;
+  }
+}
+
+.extraBtn {
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.extraBtn:hover {
+  background-color: var(--bordo);
+  color: white;
+}

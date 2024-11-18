@@ -2,31 +2,16 @@ import { useContext, useState } from 'react';
 import { contextData } from './Context';
 
 export default function Products() {
-  const { filterProducts, setBasket, setSearch, search, setIsBasketOpen } =
-    useContext(contextData);
+  const {
+    filterProducts,
+    setBasket,
+    setSearch,
+    search,
+    setIsBasketOpen,
+    addBasket,
+  } = useContext(contextData);
 
   console.log(search);
-  function addBasket(product) {
-    setIsBasketOpen(true);
-    setBasket((prevBasket) => {
-      // Sepetteki ürünü bul
-      const existingProduct = prevBasket.find((item) => item.id === product.id);
-
-      if (existingProduct) {
-        // Ürün zaten sepette varsa miktarını artır
-        return prevBasket.map((item) =>
-          item.id === product.id
-            ? { ...item, quantity: item.quantity + 1 }
-            : item
-        );
-      } else {
-        // Ürün sepette yoksa yeni ekle
-        return [...prevBasket, { ...product, quantity: 1 }];
-      }
-    });
-
-    setSearch('');
-  }
 
   return (
     <div>

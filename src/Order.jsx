@@ -4,7 +4,13 @@ import { contextData } from './Context';
 export default function Order() {
   const { isBasketOpen, basket, setBasket, saveOrderToLocalStorage, isOkey } =
     useContext(contextData);
+  const [extraOpen, setExtraOpen] = useState(false);
   const [orderNumber, setOrderNumber] = useState('');
+  const [formData, setFormData] = useState({
+    name: '',
+    price: '',
+    quantity: '',
+  });
 
   useEffect(() => {
     if (!orderNumber) {
@@ -73,6 +79,22 @@ export default function Order() {
     }
   };
 
+  function handleClickExtra(e) {
+    const { name, value } = e.target;
+    setFormData((prevData) => ({
+      ...prevData,
+      [name]: value,
+    }));
+  }
+
+  function addExtra(e) {
+    e.preventDefault();
+
+    setBasket((prevBasket) => {
+      return [...prevBasket, { ...formData }];
+    });
+  }
+
   return (
     <>
       {basket.length > 0 && (
@@ -81,6 +103,37 @@ export default function Order() {
             <h3 className='basket-header'>
               Sipariş Numarası - <p> {orderNumber && orderNumber}</p>
             </h3>
+            <button onClick={() => setExtraOpen(true)} className='extraBtn'>
+              Ekstra
+            </button>
+            {extraOpen ? (
+              <div>
+                <form action='' className='extra-side'>
+                  <input
+                    type='text'
+                    placeholder='Ürün İsmi'
+                    name='name'
+                    onChange={handleClickExtra}
+                  />
+                  <input
+                    type='text'
+                    placeholder='Ürün Fiyatı'
+                    name='price'
+                    onChange={handleClickExtra}
+                  />
+                  <input
+                    type='text'
+                    placeholder='Ürün Adedi'
+                    name='quantity'
+                    onChange={handleClickExtra}
+                  />
+                  <button onClick={addExtra}>Ekle</button>
+                  <button onClick={() => setExtraOpen(false)}>Geri Git</button>
+                </form>
+              </div>
+            ) : (
+              ''
+            )}
 
             <div className='basket-items'>
               {basket.map((item) => (

@@ -354,5 +354,17 @@
     "name": "Belem Pie",
     "price": 135,
     "category": "Tatlılar"
+  },
+  {
+    "id": 64,
+    "name": "Kış Çayı",
+    "price": 90,
+    "category": "Sıcak İçecekler"
+  },
+  {
+    "id": 65,
+    "name": "Meşrubat",
+    "price": 80,
+    "category": "Soğuk İçecekler"
   }
 ]

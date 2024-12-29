@@ -5,7 +5,10 @@ export default function Header() {
     <div className='header'>
       <div className='logo'>
         <img src='vista.jpg' alt='hahha' />
-        <h1>COFFEE VISTA</h1>
+        <div>
+          <h1>COFFEE VISTA</h1>
+          <h2 className='italik'>Hayırlı İşler, Bugün Çok Güzel Bir Gün</h2>
+        </div>
       </div>
 
       <div className='links'>

@@ -3,28 +3,28 @@
     "id": 1,
     "name": "Americano",
     "size": "M",
-    "price": 95,
+    "price": 100,
     "category": "Sıcak İçecekler"
   },
   {
     "id": 2,
     "name": "Americano",
     "size": "S",
-    "price": 85,
+    "price": 90,
     "category": "Sıcak İçecekler"
   },
   {
     "id": 3,
     "name": "Cappuccino",
     "size": "M",
-    "price": 105,
+    "price": 110,
     "category": "Sıcak İçecekler"
   },
   {
     "id": 4,
     "name": "Cappuccino",
     "size": "S",
-    "price": 95,
+    "price": 100,
     "category": "Sıcak İçecekler"
   },
   {
@@ -41,26 +41,26 @@
     "price": 105,
     "category": "Sıcak İçecekler"
   },
-  { "id": 7, "name": "Çay", "price": 25, "category": "Sıcak İçecekler" },
+  { "id": 7, "name": "Çay", "price": 35, "category": "Sıcak İçecekler" },
   {
     "id": 8,
     "name": "Chai Tea Latte",
     "size": "M",
-    "price": 120,
+    "price": 125,
     "category": "Sıcak İçecekler"
   },
   {
     "id": 9,
     "name": "Chai Tea Latte",
     "size": "S",
-    "price": 110,
+    "price": 115,
     "category": "Sıcak İçecekler"
   },
   { "id": 10, "name": "Cortado", "price": 100, "category": "Sıcak İçecekler" },
   {
     "id": 11,
     "name": "Double Çay",
-    "price": 40,
+    "price": 50,
     "category": "Sıcak İçecekler"
   },
   {
@@ -72,35 +72,35 @@
   {
     "id": 13,
     "name": "Double Türk Kahve",
-    "price": 80,
+    "price": 85,
     "category": "Sıcak İçecekler"
   },
   {
     "id": 14,
     "name": "Filter Coffee",
     "size": "M",
-    "price": 90,
+    "price": 95,
     "category": "Sıcak İçecekler"
   },
   {
     "id": 15,
     "name": "Filter Coffee",
     "size": "S",
-    "price": 80,
+    "price": 85,
     "category": "Sıcak İçecekler"
   },
   {
     "id": 16,
     "name": "Flat White",
     "size": "M",
-    "price": 105,
+    "price": 110,
     "category": "Sıcak İçecekler"
   },
   {
     "id": 17,
     "name": "Flat White",
     "size": "S",
-    "price": 95,
+    "price": 100,
     "category": "Sıcak İçecekler"
   },
   {
@@ -121,42 +121,42 @@
     "id": 20,
     "name": "Latte",
     "size": "M",
-    "price": 105,
+    "price": 110,
     "category": "Sıcak İçecekler"
   },
   {
     "id": 21,
     "name": "Latte",
     "size": "S",
-    "price": 95,
+    "price": 100,
     "category": "Sıcak İçecekler"
   },
   {
     "id": 22,
     "name": "Mocha",
     "size": "M",
-    "price": 115,
+    "price": 125,
     "category": "Sıcak İçecekler"
   },
   {
     "id": 23,
     "name": "Mocha",
     "size": "S",
-    "price": 105,
+    "price": 115,
     "category": "Sıcak İçecekler"
   },
   {
     "id": 24,
-    "name": "Pumpkin Latte",
+    "name": "Antep Fıstıklı Latte",
     "size": "M",
-    "price": 120,
+    "price": 125,
     "category": "Sıcak İçecekler"
   },
   {
     "id": 25,
-    "name": "Pumpkin Latte",
+    "name": "Antep Fıstıklı Latte",
     "size": "S",
-    "price": 110,
+    "price": 115,
     "category": "Sıcak İçecekler"
   },
   {
@@ -183,14 +183,14 @@
     "id": 29,
     "name": "Strawberry Latte",
     "size": "M",
-    "price": 115,
+    "price": 120,
     "category": "Sıcak İçecekler"
   },
   {
     "id": 30,
     "name": "Strawberry Latte",
     "size": "S",
-    "price": 105,
+    "price": 110,
     "category": "Sıcak İçecekler"
   },
   {
@@ -211,20 +211,20 @@
     "id": 33,
     "name": "Toffe Nut Latte",
     "size": "M",
-    "price": 115,
+    "price": 125,
     "category": "Sıcak İçecekler"
   },
   {
     "id": 34,
     "name": "Toffe Nut Latte",
     "size": "S",
-    "price": 105,
+    "price": 115,
     "category": "Sıcak İçecekler"
   },
   {
     "id": 35,
     "name": "Türk Kahvesi",
-    "price": 60,
+    "price": 65,
     "category": "Sıcak İçecekler"
   },
   {
@@ -310,7 +310,7 @@
   {
     "id": 56,
     "name": "Iced Mocha",
-    "price": 130,
+    "price": 135,
     "category": "Soğuk İçecekler"
   },
   {
@@ -334,15 +334,10 @@
   {
     "id": 60,
     "name": "Laktozsuz Süt",
-    "price": 10,
+    "price": 15,
     "category": "Sıcak İçecekler"
   },
-  {
-    "id": 61,
-    "name": "Filtre Kahve + Pasta",
-    "price": 100,
-    "category": "İndirim Menüleri"
-  },
+
   {
     "id": 62,
     "name": "Pavlova",
